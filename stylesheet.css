@@ -79,7 +79,7 @@ to {
     position:relative;
     font-weight: bold;
     font-family:sans-serif;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 h3 {
@@ -87,7 +87,7 @@ h3 {
 }
 
 img {
-    max-width:100%;
+    max-width:90%;
     max-height:100%;
 }
 
@@ -187,3 +187,56 @@ a:active {
 .adsl {
     float: left;
 }
+
+article_title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+article_under {
+    color: #333333;
+    font-size: 20px;
+    
+    
+}
+
+.undera {
+    margin-top: 4px;
+    position: relative;
+    white-space: pre-line;
+}
+
+article_peo {
+    font-size: 10;
+    
+}
+
+article_lpeo {
+    font-size: 10;
+}
+
+.underla {
+    margin-top: 4px;
+    position: relative;
+    white-space: pre-line;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+}
+
+article_text {
+    font-size: 17px;
+}
+
+article_by {
+    margin-top: 10px;
+    position: relative;
+    white-space: pre-line;
+}
+
+by_text {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
