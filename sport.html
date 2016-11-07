@@ -75,29 +75,37 @@
             <div class="news-feed2">
             </div>
             <div class="two">
-                <at></at>
-                <img src="download.jpg"/>
-                <nt>Youtubere er de nye stjerner</nt>
+                <a href="magnussen_problemer.html"><img src="article_pic/magnussen.png" /></a>
+                <a href="magnussen_problemer.html"><nt>Racerstjernen Kevin Magnussen i problemer</nt></a>
             </div>
             
             <div class="two">
-                <at></at>
-                <bimg></bimg>
-                <a href="article/index.html"><nt>Youtubere er de nye stjerner</nt></a>
+                <a href="skyggernes_hus.html"><nt1>Lejrtur til spøgelsesby</nt1></a>
             </div>
-            
-            <div class="col2">
-                <img src="test.png">
-                <a href="article/index.html"><nt>Youtubere er de nye stjerner</nt></a>
-                <div class="col2fix">
-                    <img src="test.png">
-                    <a href="article/index.html"><nt>Youtubere er de nye stjerner</nt></a>
-                </div>
-            </div>
-            
             <div class="two">
-                <a href="article/index.html"><nt>Youtubere er de nye stjerner</nt></a>
+                <a href="sudoku.html"><nt1>Spil Sudoku Online!!!</nt1></a>
             </div>
+            <script type="text/javascript">
+
+                    function openPdf(e, path, redirect) {
+                        // stop the browser from going to the href
+                        e = e || window.event; // for IE
+                        e.preventDefault(); 
+
+                        // launch a new window with your PDF
+                        window.open(path, 'horoskop.pdf', ... /* options */);
+
+                        // redirect current page to new location
+                        window.location = redirect;
+                    }
+
+                </script>
+            <div class="two">
+                <a href="horoskop.pdf" onclick="openPdf(event, 'horoskop.pdf', 'newpage.html');"><nt1>Horoskop</nt1>
+                </a>
+            </div>
+            
+            
         </div>
             
     </body>

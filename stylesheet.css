@@ -107,15 +107,33 @@ h1 {
     border-color: lightgray;
 }
 
+.newsfeed-s {
+    bottom: 40px;
+    margin: auto;
+    right:70px;
+    width: 68%;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    justify-content: center;
+    display: flex;
+}
+
 #news-feed2 {
     float= left;
     width: 30%;
 }
 
 nt {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
+
+nt1 {
+   font-size: 20px;
+   font-weight: bold; 
+}
+
 
 at {
     font-size: 10px;
@@ -176,6 +194,12 @@ a:active {
     border-color: lightgray;
 }
 
+.sudoku {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+
 .col2fix {
     bottom: 35px;
 }
@@ -224,6 +248,11 @@ article_lpeo {
     border-color: lightgray;
 }
 
+article_title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
 article_text {
     font-size: 17px;
 }
@@ -237,6 +266,19 @@ article_by {
 by_text {
     font-size: 26px;
     font-weight: bold;
+}
+
+pic_text {
+    color: darkslategray;
+    font-style: italic;
+}
+
+la_title {
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
 }
 
 
