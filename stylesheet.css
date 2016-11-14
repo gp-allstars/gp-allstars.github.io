@@ -72,10 +72,10 @@ li a:hover {
 }
 
 to {
-    text-align: center;
     justify-content: center;
     display: flex;
     bottom: 90px;
+    right: 20px;
     position:relative;
     font-weight: bold;
     font-family:sans-serif;
@@ -98,7 +98,7 @@ h1 {
 }
 
 .newsfeed {
-    bottom: 40px;
+    bottom: 43px;
     margin: auto;
     right:70px;
     width: 68%;
@@ -125,7 +125,7 @@ h1 {
 }
 
 nt {
-    font-size: 25px;
+    font-size: 28px;
     font-weight: bold;
 }
 
@@ -249,12 +249,12 @@ article_lpeo {
 }
 
 article_title {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
 }
 
 article_text {
-    font-size: 17px;
+    font-size: 18px;
 }
 
 article_by {
@@ -280,5 +280,13 @@ la_title {
     border-width: 1px;
     border-color: lightgray;
 }
+
+credit {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+
 
 
