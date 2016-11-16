@@ -149,11 +149,11 @@ at {
 }
 
 .two {
-    margin-top: 10px;
+    margin-top: 17px;
     position: relative;
     white-space: pre-line;
     border-bottom-style: solid;
-    border-width: 1px;
+    border-width: 1.5px;
     border-color: lightgray;
 }
 
@@ -190,7 +190,7 @@ a:active {
     position: relative;
     white-space: pre-line;
     border-bottom-style: solid;
-    border-width: 1px;
+    border-width: 1.5px;
     border-color: lightgray;
 }
 
